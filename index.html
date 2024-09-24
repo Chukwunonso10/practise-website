@@ -29,7 +29,7 @@
             Database: This stores all the application's data, such as user information, documents, bookmarks, etc.
             </p>
             <Figure>
-            <img src="./images/mountain.jpg" alt="outdoor mountain" title="feel of naure mountain" width="500px" height="400px">
+            <img src="./images/mountain.jpg" alt="outdoor mountain" title="feel of naure mountain" width="500px" height="400px" loading="eager">
             <figcaption>nature has amazing landscapes mountain</figcaption>
             <figure>
     </section>
@@ -37,7 +37,7 @@
         <h1>About us</h1>
         <p>we are a team of dedicated software programmers who have a keep passion for developing responsive websites to meet users use cases.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sunt consequuntur esse similique accusantium blanditiis neque suscipit nihil tempora quod dolorem, atque praesentium vitae optio sit aperiam rerum consequatur ad?
+        <p>buttont amet consectetur adipisicing elit. Labore sunt consequuntur esse similique accusantium blanditiis neque suscipit nihil tempora quod dolorem, atque praesentium vitae optio sit aperiam rerum consequatur ad?
         Reprehenderit saepe quis esse accusantium itaque expedita suscipit voluptates iste sed laudantium labore mollitia incidunt distinctio autem libero in nostrum odit consectetur, doloremque quidem quo, quos at repellat. Quod, delectus.
         Cumque iure blanditiis magni, debitis repellat alias sapiente animi tempora a temporibus eaque, ea ipsam ipsa quidem laudantium numquam atque at error, tenetur recusandae rem nobis? Reiciendis commodi dolore alias?
         Maxime voluptatibus debitis unde sed iure. Illo numquam libero odio veniam reiciendis quo voluptatem quisquam vel necessitatibus sapiente, corporis facere cupiditate consequuntur quas dolor modi alias rerum sunt explicabo accusamus.
@@ -54,7 +54,7 @@
     <section>
         <h1>Contact us</h1>
         <p>
-            Do you want to partner with us? Then visit our website at <a href="#" target="_blank">our website</a>
+            Do you want to partner with us? Then visit our website at <a href="#introduction" target="_blank">our website</a>
             you can equall pay us a visit in our office betweeen the hours of <time datetime="8:00">8:00am</time> and <time datetime="4:00">4:00pm</time> Nigerian time
         </p>
         <form action="https://httpbin.org./post" method="post" target="_blank">
@@ -62,7 +62,7 @@
                 <legend>Leave us a Message</legend>
                 <p>
                     <label for="fname">firstName</label>
-                    <input type="text" id="fname" name="fname" required autocomplete="on" autofocus>
+                    <input type="text" id="fname" name="fname" required autocomplete="on" autofocus placeholder="First Name">
                 </p>
                 <p>
                     <label for="lname">lastName</label>
@@ -83,9 +83,15 @@
                 <p>
                     <label for="gender">Sex</label>
                     <select name="gender" id="gender">
+                        <optgroup label="Normal">
                         <option value="male">male</option>
                         <option value="feMale">feMale</option>
                         <option value="others">prefer not to say</option>
+                        </optgroup>
+                        <optgroup label="Abnormal">
+                            <option value="Homo">Homo</option>
+                            <option value="trans">Transgender</option>
+                        </optgroup>
                     </select>
                 </p>
             </fieldset>
@@ -93,6 +99,20 @@
             <button type="reset">Reset</button>
         </form>
     </section>
+    <section>
+        <input type="radio" name="Html" id="Html">
+        <label for="Html">Html</label>
+        <input type="radio" name="Css" id="Css">
+        <label for="Css">Css</label>
+        <input type="radio" name="Javascript" id="Javascript">
+        <label for="Javascript">Javascript</label>
+    </section>
 </main>
+<footer>
+    copyright &copy; 2024 Nigeria | powered by 3MTT.
+    <p><a href="#">Back to Top</a></p>
+    <button type="button">linkedln</button>
+    <label for="num" name="num">number</label>
+</footer>
 </body>
 </html>
